@@ -1,0 +1,12 @@
+name: First GHA Test
+
+on:
+  push:
+
+jobs:
+  b16_first_job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Message
+        run: echo "Welcome to GitHub Actions"
